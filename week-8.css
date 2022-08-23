@@ -1,0 +1,49 @@
+div.bigimage{
+    width: 100vw;
+    height: 10vw;
+    position: relative;
+    background-color: #ECE5C7;
+    /* background-image: url('cakess.jpg'); */
+    background-size: cover;
+
+
+}
+div.overlay{
+ background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0, 0.5); 
+color: white;
+font-weight: bold;
+border: 1px solid;
+position: absolute;
+top: 11%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 40%;
+padding: 10px;
+text-align: center;;
+
+} 
+.about{
+    width:100%;
+    padding: -100px 0px;
+    /* padding-top: -50px;  */
+}
+.about-text{
+    width:550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text{
+    color:gray;
+    font-size: 20px;
+    text-transform: capitalize;
+    /* margin-bottom: 5px; */
+    letter-spacing:2px ;
+}
+background-image:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("IMG_8968.jpg");
